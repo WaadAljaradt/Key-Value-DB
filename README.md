@@ -1,7 +1,7 @@
 # Key-Value-DB
 
                 Mini Key-Value data base CP system.
-#General Intorduction 
+# General Intorduction 
 
 Three nodes serving as : Master, Node2 , Node3 in the system each one in
 configured to be in three different subnets in a VPC network In the test cases using Postman
@@ -20,14 +20,14 @@ handle write and wait for response of successful forwarding Status and replicati
 fetch and compare to requested values) in Case of Successful it return to User with expected
 results ( consistent ).
 
-#Partition 
+# Partition 
 Partition implemented by closing ports of communications in security-groups of instances.
 Jump box instance in the same network is used to test partition state.
 Partition : Slave Nodes are Irresponsive, Master keep track for all the failed operations for
 each node in partition in a file and propagate to in-service ones and then handle requests and
 return response to Users.
 
-#Partition Recovery
+# Partition Recovery
 When a node comes up to the system, it communicate with the master to
 through a group of logical apis to achieve consistency before if can serve Users, it start with a
 “am I synch ?” type of question in a /IsSynch rest Api to master if the answer is No it will
@@ -41,7 +41,7 @@ configured, or v=1 is CP then readings of latest data in partition mode for AP s
 returned to user and out-service if CP Configured
 
 
-Youtube Demo links :
+# Youtube Demo links :
 
 1- Consistent system 
 https://www.youtube.com/watch?v=mETNDgfdQGQ&t=9s
