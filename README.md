@@ -50,3 +50,11 @@ https://www.youtube.com/watch?v=mETNDgfdQGQ&t=9s
 2- Configrable system (Consistent or Available) 
 
 https://www.youtube.com/watch?v=b5Izrlsh_Ug&t=567s
+
+Class 281 Cloud computing personal project Assignment 
+Reference lecturere :
+
+Paul Nguyen
+https://www.linkedin.com/in/nguyenresearch/
+
+
